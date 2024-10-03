@@ -1,0 +1,6 @@
+.maincontainer {
+    width: 100%;
+    height: cal(100% - 45px);
+    background: #f04a4a;
+    display: flex;
+}

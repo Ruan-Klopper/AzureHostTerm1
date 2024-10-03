@@ -1,0 +1,55 @@
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-profile a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.user-profile a:hover {
+  color: #b9e425;
+}
+
+.user-image {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.user-profile i {
+  font-size: 34px;
+  margin-right: 30px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px 30px;
+  padding: 50px 10px;
+  border-radius: 10px;
+}
+
+.sidebar-stats {
+  color: #b9e425;
+}
+
+.divider {
+  border-top: 4px solid #697181;
+  border-radius: 10px;
+}
+
+.horse-stats-container {
+  margin-top: 20px;
+}
+
+.horse-stats-table {
+  border-collapse: collapse;
+  width: 100%;
+}

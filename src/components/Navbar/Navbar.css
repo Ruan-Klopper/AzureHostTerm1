@@ -1,0 +1,8 @@
+.nav-link a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: #b9e425;
+}
