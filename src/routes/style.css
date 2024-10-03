@@ -1,0 +1,164 @@
+.compare-races {
+  --color-label: #a7a7a7;
+  --color-text: #4e5262;
+  --font-family: "Euclid Circular A";
+}
+
+.compare-races body {
+  margin: 0;
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+.compare-races header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.compare-races header .dropdowns {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.compare-races header nav {
+  display: flex;
+  gap: 8px;
+}
+
+.compare-races header button {
+  background: transparent;
+  border: 1px solid var(--color-label);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: var(--font-family);
+}
+
+.compare-races header button.active {
+  background: var(--color-label);
+  color: white;
+}
+
+.compare-races .dropbtn {
+  background-color: white;
+  color: var(--color-text);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.compare-races .dropbtn i {
+  margin-left: 8px;
+}
+
+.compare-races .dropdown-select {
+  display: none;
+}
+
+.compare-races .dropdown:hover .dropdown-select {
+  display: block;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.compare-races .dropdown-select option {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.compare-races h2 {
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+}
+
+.compare-races .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.compare-races .card {
+  flex: 0 0 45%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+.compare-races .card h3 {
+  margin-top: 0;
+}
+
+.compare-races .chart {
+  height: 300px;
+  margin-top: 20px;
+}
+
+.compare-races .race-details {
+  margin-top: 20px;
+}
+
+.compare-races .race-details p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .compare-races .card {
+    flex: 0 0 100%;
+  }
+
+  .compare-races .chart {
+    height: 250px;
+  }
+}
+
+.compare-main-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.compare-card-wrapper {
+  flex: 1 1 45%;
+  background: linear-gradient(#3A4149, #1A1D21);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  border: 1px solid #697181; /* Stroke color */
+}
+
+.compare-card {
+  background-color: rgba(15, 15, 15, 0.749);
+  backdrop-filter: blur(10px);
+}
+
+.chart-container {
+  width: 100%; /* Adjust to the full width of the card */
+  height: 400px; /* Adjust height to avoid cramping */
+}
+
+.toggle-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.toggle-buttons label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
