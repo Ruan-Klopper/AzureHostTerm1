@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+/* Sidebar.css */
+=======
+>>>>>>> ea5d899a4 (Your commit message)
+
+.nav-link a {
+  color: inherit;
+  text-decoration: none;
+}
+
+<<<<<<< HEAD
+/* Apply hover color */
+=======
+
+>>>>>>> ea5d899a4 (Your commit message)
+.nav-link a:hover {
+  color: #B9E425; 
+}
+
